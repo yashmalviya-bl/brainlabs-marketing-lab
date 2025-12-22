@@ -1,0 +1,27 @@
+version: v1.2
+name: marketing-lab
+description: A centralized sandbox environment for deploying and testing server-side Google Tag Manager (sGTM) configurations, GCP cloud infrastructure, and AI integrations. ONLY for experimental marketing and data engineering use cases.
+status: building
+docs: https://docs.google.com/document/d/1O8RAQbKmDa_RlzYkrfIMXFdSlKGPpRdSjmldfUiUhlA/edit?tab=t.0
+uses-sensitive-data: False
+threat-model: null
+dpo-approved: 
+secops-approved: 
+business-owner: yash.malviya
+technical-owner: yash.malviya
+maintainers:
+  - yash.malviya
+team: data
+apis:
+ - google-ads:   
+      version: v18 
+public-info:
+  reach: internal-tool
+  platforms:
+    - google-cloud-platform
+
+deployments:
+  - type: google-cloud-platform
+    project-id: marketing-lab
+    # The monthly budget in USD
+    budget: 5
