@@ -1,10 +1,10 @@
 version: v1.2
-name: marketing-lab
+name: brainlabs-marketing-lab
 description: A centralized sandbox environment for deploying and testing server-side Google Tag Manager (sGTM) configurations, GCP cloud infrastructure, and AI integrations. ONLY for experimental marketing and data engineering use cases.
 status: building
 docs: https://docs.google.com/document/d/1O8RAQbKmDa_RlzYkrfIMXFdSlKGPpRdSjmldfUiUhlA/edit?tab=t.0
 uses-sensitive-data: False
-threat-model: null
+threat-model: https://docs.google.com/document/d/19DKm3fY5KEgoI7Y79yoIxnaw7Sjt_BTtMu9MVoYesUw/edit?tab=t.0#heading=h.i95fgekf0agx
 dpo-approved: 
 secops-approved: 
 business-owner: yash.malviya
@@ -24,4 +24,4 @@ deployments:
   - type: google-cloud-platform
     project-id: marketing-lab
     # The monthly budget in USD
-    budget: 5
+    budget: 10
